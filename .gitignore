@@ -1,0 +1,58 @@
+# ── KiCad ──────────────────────────────────────────────────
+*-backups/
+*.kicad_prl
+fp-info-cache
+*_autosave*
+
+# ── Altium ─────────────────────────────────────────────────
+History/
+__Previews/
+*.PcbDoc.bak
+*.SchDoc.bak
+
+# ── Git LFS hint: track these with  git lfs track "*.ext"  ─
+# *.kicad_pcb
+# *.kicad_sch
+# *.PcbDoc
+# *.SchDoc
+# *.step
+# *.stl
+# *.brd
+
+# ── Firmware build artifacts ────────────────────────────────
+**/build/
+**/.pio/
+**/cmake-build-*/
+**/*.o
+**/*.elf
+**/*.bin
+**/*.hex
+**/*.map
+**/*.d
+
+# ── ESP-IDF ─────────────────────────────────────────────────
+**/sdkconfig.old
+**/dependencies.lock
+**/managed_components/
+
+# ── STM32CubeIDE / CubeMX ───────────────────────────────────
+**/.settings/
+**/.cproject
+**/.project
+
+# ── Arduino ─────────────────────────────────────────────────
+**/libraries/
+
+# ── OS junk ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ── Editors ─────────────────────────────────────────────────
+.vscode/settings.json
+*.swp
+*~
+
+# ── Claude Code ─────────────────────────────────────────────
+graphify-out/
