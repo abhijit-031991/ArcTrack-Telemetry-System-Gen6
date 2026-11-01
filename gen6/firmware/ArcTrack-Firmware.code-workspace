@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "name": "ArcTrack Firmware (Gen 6)",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "files.associations": {
+      "*.h": "cpp",
+      "*.cpp": "cpp",
+      "*.ino": "cpp"
+    },
+    "files.exclude": {
+      "**/.pio": true,
+      "**/cmake-build-*": true
+    }
+  }
+}
